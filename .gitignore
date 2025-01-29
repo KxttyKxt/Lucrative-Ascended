@@ -11,3 +11,14 @@ options.txt
 /crash-reports
 emi.json
 command_history.txt
+kubejs/README.txt
+kubejs/startup_scripts/main.js
+kubejs/server_scripts/main.js
+/local
+kubejs/client_scripts/main.js
+kubejs/assets/kubejs/textures/item/example_item.png
+kubejs/assets/kubejs/textures/block/example_block.png
+
+.probe
+/.vscode
+spyglass.json
