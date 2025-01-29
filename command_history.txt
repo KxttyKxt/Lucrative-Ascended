@@ -1,0 +1,10 @@
+/give @s irons_jewelry:moonstone
+/gamerule keepInventory false
+/give @s irons_spellbooks:affinity_ring
+/kill
+/execute in minecraft:overworld run tp @s 32 63 23
+/give @s irons_spellbooks:cast_time_ring
+/give @s irons_spellbooks:cooldown_ring
+/give @s convenientcurioscontainer:convenient_container
+/kill
+/execute in minecraft:overworld run tp @s 29 64 23
