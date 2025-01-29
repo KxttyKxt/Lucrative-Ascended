@@ -10,3 +10,4 @@ options.txt
 /.mixin.out
 /crash-reports
 emi.json
+command_history.txt
