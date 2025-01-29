@@ -22,3 +22,6 @@ kubejs/assets/kubejs/textures/block/example_block.png
 .probe
 /.vscode
 spyglass.json
+fabricloader.log
+fabricloader.log
+data/fabricDefaultResourcePacks.dat
