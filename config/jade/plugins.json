@@ -62,6 +62,12 @@
     "entity": true,
     "entity_variant": true
   },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
