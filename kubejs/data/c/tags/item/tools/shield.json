@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "better_weaponry:wooden_shield",
+        "better_weaponry:stone_shield",
+        "better_weaponry:iron_shield",
+        "better_weaponry:golden_shield",
+        "better_weaponry:diamond_shield",
+        "better_weaponry:netherite_shield",
+        "better_weaponry:copper_shield",
+        "better_weaponry:emerald_shield",
+        "better_weaponry:amethyst_shield"
+    ]
+}
