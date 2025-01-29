@@ -2,7 +2,7 @@
 		#Set Fullscreen mode
 		#Borderless let you change between screens more faster and move your mouse across monitors
 		#Allowed Values: WINDOWED, BORDERLESS, FULLSCREEN
-		fullscreen = "FULLSCREEN"
+		fullscreen = "BORDERLESS"
 		#Configure FPS Display mode
 		#Complete mode gives you min FPS count and average count
 		#Allowed Values: OFF, SIMPLE, ADVANCED
@@ -89,7 +89,7 @@
 			[embeddiumextras.performance.distanceCulling.tileEntities]
 				#Toggles distance culling for Block Entities
 				#Maybe you use another mod for that :(
-				enable = true
+				enable = false
 				#Configure horizontal max distance before cull Block entities
 				#Value is squared, default was 64^2 (or 64x64)
 				# Default: 4096
@@ -109,7 +109,7 @@
 			[embeddiumextras.performance.distanceCulling.entities]
 				#Toggles distance culling for entities
 				#Maybe you use another mod for that :(
-				enable = true
+				enable = false
 				#Configure horizontal max distance before cull entities
 				#Value is squared, default was 64^2 (or 64x64)
 				# Default: 4096
@@ -129,7 +129,7 @@
 	[embeddiumextras.others]
 		#Configure if borderless fullscreen option should be attached to F11 or replace vanilla fullscreen
 		#Allowed Values: ATTACH, REPLACE, OFF
-		borderlessAttachModeOnF11 = "OFF"
+		borderlessAttachModeOnF11 = "REPLACE"
 		#Toggles fast language reload
 		#Embeddedt points it maybe cause troubles to JEI, so ¿why not add it as a toggleable option?
 		fastLanguageReload = true

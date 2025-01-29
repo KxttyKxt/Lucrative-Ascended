@@ -1,7 +1,7 @@
 [sodiumdynamiclights]
 	#Lighting mode
 	#Allowed Values: OFF, SLOW, FAST, REALTIME
-	mode = "REALTIME"
+	mode = "SLOW"
 	#Enable entities light source.
 	entities = false
 	#Enable first-person player light source.
@@ -15,4 +15,4 @@
 	tnt = "SIMPLE"
 	#Creeper lighting mode. May be off, simple or fancy.
 	#Allowed Values: OFF, SIMPLE, FANCY
-	creeper = "OFF"
+	creeper = "SIMPLE"
