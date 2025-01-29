@@ -1,2 +1,9 @@
 minecraftinstance.json
 .curseclient
+/saves
+usernamecache.json
+usercache.json
+realms_persistence.json
+options.txt
+/logs
+/downloads
