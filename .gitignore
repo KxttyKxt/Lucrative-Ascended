@@ -26,3 +26,8 @@ fabricloader.log
 fabricloader.log
 data/fabricDefaultResourcePacks.dat
 patchouli_data.json
+mods/citresewn-1.2.2+1.21.jar.disabled_by_citresewn_neopatcher
+mods/citresewn-1.2.2+1.21.jar
+mods/.connector/patched_citresewn-1.2.2+1.21_mapped_moj_1.21.1.jar.input
+mods/.connector/patched_citresewn-1.2.2+1.21_mapped_moj_1.21.1.jar
+user-prefs.json

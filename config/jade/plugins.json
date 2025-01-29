@@ -79,6 +79,9 @@
     "block_properties": false,
     "mod_name": true
   },
+  "lootr": {
+    "info": true
+  },
   "corpse": {
     "corpse": true
   }
