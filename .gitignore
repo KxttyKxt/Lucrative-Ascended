@@ -31,3 +31,6 @@ mods/citresewn-1.2.2+1.21.jar
 mods/.connector/patched_citresewn-1.2.2+1.21_mapped_moj_1.21.1.jar.input
 mods/.connector/patched_citresewn-1.2.2+1.21_mapped_moj_1.21.1.jar
 user-prefs.json
+.customassets/title.bbmodel
+fancymenu_data/last_world.fmdata
+/profileImage
