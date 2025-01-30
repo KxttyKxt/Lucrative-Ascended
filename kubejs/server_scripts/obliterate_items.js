@@ -23,3 +23,5 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
 ItemEvents.modifyTooltips(event => {
     event.add('#kubejs:obliterated', Text.warn(Text.red('This item is obliterated. However you got this, it was not intended')))
 })
+
+// If a player happens upon an onbliterated item, the functions in 'data/kubejs/function/obliterate_items' remove them.
