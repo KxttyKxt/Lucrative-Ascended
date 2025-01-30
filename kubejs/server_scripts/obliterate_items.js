@@ -18,3 +18,8 @@ ServerEvents.recipes(event => {
 RecipeViewerEvents.removeEntriesCompletely('item', event => {
 	event.remove('#kubejs:obliterated')
 })
+
+// Warn obliterated if somehow obtained
+ItemEvents.modifyTooltips(event => {
+    event.add('#kubejs:obliterated', Text.warn(Text.red('This item is obliterated. However you got this, it was not intended')))
+})
