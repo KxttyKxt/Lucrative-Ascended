@@ -1,0 +1,4 @@
+scoreboard objectives add items_were_obliterated dummy
+
+schedule clear kubejs:obliterate_items/clear_items
+function kubejs:obliterate_items/clear_items
