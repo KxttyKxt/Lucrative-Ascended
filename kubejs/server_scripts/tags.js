@@ -1,5 +1,6 @@
 // Tags to make things easier
 ServerEvents.tags('item', event => {
+
     // Equipment tag for all equippables
     event.add('c:equipment', '#c:armors')
     event.add('c:equipment', '#c:tools')
@@ -21,4 +22,5 @@ ServerEvents.tags('item', event => {
         else if (amethystItems.test(equippable))
             event.add('c:equipment/amethyst', equippable)
     })
+    
 })
