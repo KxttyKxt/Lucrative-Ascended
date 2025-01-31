@@ -1,0 +1,69 @@
+    {
+    "schema_version": 2,
+    "failed_reloads_per_session": 5,
+
+    "default_packs": [
+        "vanilla",
+        "mod_resources",
+        "fabric",
+        "continuity:default",
+        "continuity:glass_pane_culling_fix",
+
+        "file/FreshAnimations_v1.9.2.zip",
+        "file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
+
+        "moonlight:mods_dynamic_assets"
+    ],
+    "default_overrides": {
+        "force_compatible": true
+    },
+
+    "pack_overrides": {
+        "base": [
+            "vanilla",
+            "mod_resources",
+            "fabric",
+            "continuity:default",
+            "continuity:glass_pane_culling_fix"
+        ],
+        "$$base": {
+            "default_position": "BOTTOM",
+            "fixed_position": true,
+            "required": true,
+            "hidden": true
+        },
+
+        "dynamic": [
+            "moonlight:mods_dynamic_assets"
+        ],
+        "$$dynamic": {
+            "default_position": "TOP",
+            "fixed_position": true,
+            "required": true,
+            "hidden": true
+        },
+
+
+
+        "animated": [
+            "file/FreshAnimations_v1.9.2.zip",
+            "file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip"
+        ],
+        "$$animated": {
+            "force_compatible": true
+        },
+
+
+
+        "clutter": [
+            "mod/lootr:resourcepacks/old_textures",
+            "builtin/builtin_resource_packs/legacy_dead_king_resource_pack",
+            "programmer_art",
+            "high_contrast"
+        ],
+        "$$clutter": {
+            "required": false,
+            "hidden": true
+        }
+    }
+}
