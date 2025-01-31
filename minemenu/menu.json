@@ -1,1 +1,76 @@
-{}
+{
+  "main": {
+    "0": {
+      "title": "Toggle First-Person Model",
+      "icon": {
+        "stack": "{count:1,id:\"minecraft:iron_chestplate\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.firstperson.toggle",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Waypoints Menu",
+      "icon": {
+        "stack": "{count:1,id:\"minecraft:ender_eye\"}"
+      },
+      "action": {
+        "key": {
+          "key": "gui.xaero_waypoints_key",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Quick Waypoint",
+      "icon": {
+        "stack": "{count:1,id:\"minecraft:ender_pearl\"}"
+      },
+      "action": {
+        "key": {
+          "key": "gui.xaero_instant_waypoint",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "Open World Map",
+      "icon": {
+        "stack": "{count:1,id:\"irons_spellbooks:furled_map\"}"
+      },
+      "action": {
+        "key": {
+          "key": "gui.xaero_open_map",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "Open Backpack",
+      "icon": {
+        "stack": "{count:1,id:\"sophisticatedbackpacks:backpack\"}"
+      },
+      "action": {
+        "key": {
+          "key": "keybind.sophisticatedbackpacks.open_backpack",
+          "toggle": false
+        }
+      }
+    },
+    "7": {
+      "title": "Toggle Spyglass Zoom",
+      "icon": {
+        "stack": "{count:1,id:\"minecraft:spyglass\"}"
+      },
+      "action": {
+        "key": {
+          "key": "key.spyglass-improvements.use",
+          "toggle": false
+        }
+      }
+    }
+  }
+}
