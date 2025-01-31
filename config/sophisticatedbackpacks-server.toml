@@ -26,7 +26,7 @@
 		#Chance of an entity spawning with Backpack
 		# Default: 0.01
 		# Range: 0.0 ~ 1.0
-		chance = 0
+		chance = 0.0
 		#Turns on/off addition of loot into backpacks
 		addLoot = true
 		#Turns on/off buffing the entity that wears backpack with potion effects. These are scaled based on how much loot is added.
@@ -46,18 +46,18 @@
 		#Chance of mob dropping backpack when killed by player
 		# Default: 0.5
 		# Range: 0.0 ~ 1.0
-		backpackDropChance = 0
+		backpackDropChance = 0.5
 		#Chance increase per looting level of mob dropping backpack
 		# Default: 0.15
 		# Range: 0.0 ~ 0.3
-		lootingChanceIncreasePerLevel = 0
+		lootingChanceIncreasePerLevel = 0.15
 
 	#Leather Backpack Settings
 	[server.leatherBackpack]
 		#Number of inventory slots in the backpack
 		# Default: 27
 		# Range: 1 ~ 144
-		inventorySlotCount = 18
+		inventorySlotCount = 27
 		#Number of upgrade slots in the backpack
 		# Default: 1
 		# Range: 0 ~ 10

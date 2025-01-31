@@ -1,0 +1,2 @@
+function kubejs:obliterate_items/load
+function kubejs:vault_items/load

@@ -1,6 +1,7 @@
 // In order to obliterate, we need a few things:
 //   1. Remove all input and output recipes
 //   2. Remove completely from recipe viewer (EMI)
+//   3. Prevent players from obtaining
 
 // Tags and items to remove from recipes and EMI
 ServerEvents.tags('item', event => {
@@ -21,7 +22,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', event => {
 
 // Warn obliterated if somehow obtained
 ItemEvents.modifyTooltips(event => {
-    event.add('#kubejs:obliterated', Text.warn(Text.red('This item is obliterated. However you got this, it was not intended')))
+    event.add('#kubejs:obliterated', Text.red('⚠ This item is obliterated. However you got this, it was not intended'))
 })
 
-// If a player happens upon an onbliterated item, the functions in 'data/kubejs/function/obliterate_items' remove them.
+// If a player happens upon an obliterated item, the functions in 'data/kubejs/function/obliterate_items' remove them.
