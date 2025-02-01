@@ -1,8 +1,14 @@
 #Disables specific entries
 [entries]
 
-		[entries.wood_type.farmersdelight]
-			cabinet = true
+		[entries.wood_type.another_furniture]
+			drawer = true
+			table = true
+			flower_box = true
+			shelf = true
+			shutter = true
+			bench = true
+			chair = true
 
 #Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
 [types]
