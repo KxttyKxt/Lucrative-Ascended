@@ -5,8 +5,8 @@
 // Tags and items to remove from recipes and EMI
 ServerEvents.tags('item', event => {
     event.add('kubejs:vaulted', '#sophisticatedbackpacks:upgrade')
-    event.add('kubejs:vaulted', 'sophisticatedbackpacks:copper_backpack')
-    event.add('kubejs:vaulted', 'sophisticatedbackpacks:iron_backpack')
+    // event.add('kubejs:vaulted', 'sophisticatedbackpacks:copper_backpack')
+    // event.add('kubejs:vaulted', 'sophisticatedbackpacks:iron_backpack')
     event.add('kubejs:vaulted', 'sophisticatedbackpacks:gold_backpack')
     event.add('kubejs:vaulted', 'sophisticatedbackpacks:diamond_backpack')
     event.add('kubejs:vaulted', 'sophisticatedbackpacks:netherite_backpack')

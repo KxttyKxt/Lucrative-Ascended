@@ -1,0 +1,1 @@
+tellraw @a {"text":"🗡 Lucrative gamerule changes were applied. You can now override them if you like.","color":"gold"}

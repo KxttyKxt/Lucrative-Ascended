@@ -1,0 +1,1 @@
+execute unless score default-gamerules lucrative-data-indicators matches 1 run function kubejs:default_gamerules/set_gamerules

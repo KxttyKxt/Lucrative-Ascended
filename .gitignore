@@ -42,3 +42,4 @@ config/xaeropatreon.txt
 /simplebackups
 TrashSlotSaveState.json
 knownkeys.txt
+*.bak
