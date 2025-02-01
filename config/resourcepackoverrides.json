@@ -9,10 +9,33 @@
         "continuity:default",
         "continuity:glass_pane_culling_fix",
 
+
+
+        "file/Unique Dark 1.20.2-1.21.x (free).zip",
+            
+        "file/Serified Font v1.1 f1-34.zip",
+        "file/Vanilla+ Collections v2.5.zip",
+        "file/Fancy Crops v1.1.zip",
+        "file/Banner Pattern Clarity v1.5 pf8-34.zip",
+        "file/Blockier Goat Horn v1.1 f9-34.zip",
+        "file/Fine Armoury v1.3 f8-34.zip",
+        
+        "file/waystones_1.21.1.zip",
+        "file/fresh_particles1.2.zip",
+
+        "file/EnderEyes_1.21_v3.1.zip",
+        "file/Bibliophilia 1.14 (1.21).zip",
+        "file/Visual Titles 1.1.zip",
+
+
+
         "file/FreshAnimations_v1.9.2.zip",
         "file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
 
-        "moonlight:mods_dynamic_assets"
+
+
+        "moonlight:mods_dynamic_assets",
+        "eatinganimations_compat"
     ],
     "default_overrides": {
         "force_compatible": true
@@ -33,18 +56,29 @@
             "hidden": true
         },
 
-        "dynamic": [
-            "moonlight:mods_dynamic_assets",
-            "eatinganimations_compat"
+
+
+        "plus": [
+            "file/Unique Dark 1.20.2-1.21.x (free).zip",
+
+            "file/Serified Font v1.1 f1-34.zip",
+            "file/Vanilla+ Collections v2.5.zip",
+            "file/Fancy Crops v1.1.zip",
+            "file/Banner Pattern Clarity v1.5 pf8-34.zip",
+            "file/Blockier Goat Horn v1.1 f9-34.zip",
+            "file/Fine Armoury v1.3 f8-34.zip",
+            
+            "file/waystones_1.21.1.zip",
+            "file/fresh_particles1.2.zip",
+
+            "file/EnderEyes_1.21_v3.1.zip",
+            "file/Bibliophilia 1.14 (1.21).zip",
+            "file/Visual Titles 1.1.zip"
         ],
-        "$$dynamic": {
-            "default_position": "TOP",
+        "$$plus": {
             "fixed_position": true,
-            "required": true,
             "hidden": true
         },
-
-
 
         "animated": [
             "file/FreshAnimations_v1.9.2.zip",
@@ -52,6 +86,20 @@
         ],
         "$$animated": {
             "force_compatible": true
+        },
+
+
+    
+
+        "compat": [
+            "moonlight:mods_dynamic_assets",
+            "eatinganimations_compat"
+        ],
+        "$$compat": {
+            "default_position": "TOP",
+            "fixed_position": true,
+            "required": true,
+            "hidden": true
         },
 
 
