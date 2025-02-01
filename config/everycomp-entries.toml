@@ -3,3 +3,10 @@
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true
+
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+		[types.cake.golden_foods]
+			golden_cake = true
+			enchanted_golden_cake = true

@@ -1,0 +1,27 @@
+[milestones]
+	#Number of hearts you start out with.
+	# Default: 10
+	# Range: 0 ~ 1000
+	baseHearts = 10
+	#Number of hearts you gain for reaching a new milestone.
+	# Default: 2
+	# Range: 0 ~ 1000
+	heartsPerMilestone = 2
+	#A list of numbers of unique foods you need to eat to unlock each milestone, in ascending order. Naturally, adding more milestones lets you earn more hearts.
+	milestones = [10, 20, 30, 40, 48]
+
+[filtering]
+	#Foods in this list won't affect the player's health nor show up in the food book.
+	blacklist = []
+	#When this list contains anything, the blacklist is ignored and instead only foods from here count.
+	whitelist = ["golden_foods:enchanted_golden_cooked_mutton", "golden_foods:golden_cooked_porkchop", "golden_foods:enchanted_golden_rabbit_stew", "golden_foods:golden_pumpkin_pie", "golden_foods:golden_baked_potato", "golden_foods:enchanted_golden_cake", "golden_foods:golden_cooked_rabbit", "golden_foods:golden_beetroot_soup", "golden_foods:golden_mushroom_stew", "golden_foods:golden_cooked_beef", "golden_foods:golden_cookie", "minecraft:golden_carrot", "golden_foods:enchanted_golden_sweet_berries", "golden_foods:golden_honey_bottle", "golden_foods:golden_sweet_berries", "golden_foods:enchanted_golden_glow_berries", "golden_foods:golden_cooked_chicken", "golden_foods:enchanted_golden_honey_bottle", "golden_foods:enchanted_golden_dried_kelp", "golden_foods:golden_chorus_fruit", "golden_foods:enchanted_golden_carrot", "golden_foods:enchanted_golden_milk_bucket", "golden_foods:enchanted_golden_cooked_salmon", "golden_foods:enchanted_golden_bread", "golden_foods:golden_beetroot", "golden_foods:golden_cooked_cod", "golden_foods:enchanted_golden_melon_slice", "golden_foods:golden_cooked_salmon", "golden_foods:enchanted_golden_cooked_rabbit", "golden_foods:golden_cake", "golden_foods:golden_rabbit_stew", "golden_foods:golden_bread", "golden_foods:enchanted_golden_beetroot_soup", "golden_foods:enchanted_golden_beetroot", "golden_foods:enchanted_golden_baked_potato", "golden_foods:enchanted_golden_mushroom_stew", "golden_foods:enchanted_golden_cooked_porkchop", "minecraft:golden_apple", "golden_foods:golden_milk_bucket", "golden_foods:golden_dried_kelp", "golden_foods:enchanted_golden_cooked_chicken", "minecraft:enchanted_golden_apple", "golden_foods:golden_glow_berries", "golden_foods:enchanted_golden_pumpkin_pie", "golden_foods:enchanted_golden_cookie", "golden_foods:enchanted_golden_cooked_beef", "golden_foods:golden_melon_slice", "golden_foods:enchanted_golden_chorus_fruit", "golden_foods:enchanted_golden_cooked_cod", "golden_foods:golden_cooked_mutton"]
+	#The minimum hunger value foods need to provide in order to count for milestones, in half drumsticks.
+	# Default: 1
+	# Range: 0 ~ 1000
+	minimumFoodValue = 1
+
+[miscellaneous]
+	#Whether or not to reset the food list on death, effectively losing all bonus hearts.
+	resetOnDeath = false
+	#If true, eating foods outside of survival mode (e.g. creative/adventure) is not tracked and thus does not contribute towards progression.
+	limitProgressionToSurvival = false

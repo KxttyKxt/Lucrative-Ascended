@@ -34,7 +34,8 @@
         },
 
         "dynamic": [
-            "moonlight:mods_dynamic_assets"
+            "moonlight:mods_dynamic_assets",
+            "eatinganimations_compat"
         ],
         "$$dynamic": {
             "default_position": "TOP",
