@@ -1,0 +1,5 @@
+#Disables specific entries
+[entries]
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
