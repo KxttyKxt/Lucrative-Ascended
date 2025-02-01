@@ -57,7 +57,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 27
 		# Range: 1 ~ 144
-		inventorySlotCount = 27
+		inventorySlotCount = 9
 		#Number of upgrade slots in the backpack
 		# Default: 1
 		# Range: 0 ~ 10
@@ -68,7 +68,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 45
 		# Range: 1 ~ 144
-		inventorySlotCount = 45
+		inventorySlotCount = 18
 		#Number of upgrade slots in the backpack
 		# Default: 1
 		# Range: 0 ~ 10
@@ -79,7 +79,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 54
 		# Range: 1 ~ 144
-		inventorySlotCount = 54
+		inventorySlotCount = 27
 		#Number of upgrade slots in the backpack
 		# Default: 2
 		# Range: 0 ~ 10
@@ -90,7 +90,7 @@
 		#Number of inventory slots in the backpack
 		# Default: 81
 		# Range: 1 ~ 144
-		inventorySlotCount = 81
+		inventorySlotCount = 36
 		#Number of upgrade slots in the backpack
 		# Default: 3
 		# Range: 0 ~ 10
@@ -101,22 +101,22 @@
 		#Number of inventory slots in the backpack
 		# Default: 108
 		# Range: 1 ~ 144
-		inventorySlotCount = 108
+		inventorySlotCount = 45
 		#Number of upgrade slots in the backpack
 		# Default: 5
 		# Range: 0 ~ 10
-		upgradeSlotCount = 5
+		upgradeSlotCount = 4
 
 	#Netherite Backpack Settings
 	[server.netheriteBackpack]
 		#Number of inventory slots in the backpack
 		# Default: 120
 		# Range: 1 ~ 144
-		inventorySlotCount = 120
+		inventorySlotCount = 54
 		#Number of upgrade slots in the backpack
 		# Default: 7
 		# Range: 0 ~ 10
-		upgradeSlotCount = 7
+		upgradeSlotCount = 5
 
 	#Compacting Upgrade Settings
 	[server.compactingUpgrade]
@@ -533,6 +533,6 @@
 		#Ratio of slowness levels per every backpack above the maximum number allowed. (number of backpacks above the max gets multiplied by this number and ceiled)
 		# Default: 1.0
 		# Range: 0.1 ~ 5.0
-		slownessLevelsPerAdditionalBackpack = 3.0
+		slownessLevelsPerAdditionalBackpack = 5.0
 		#Determines if active upgrades will only work in the backpack that's worn by the player. Active upgrades are for example magnet, pickup, cooking, feeding upgrades.
 		onlyWornBackpackTriggersUpgrades = true
