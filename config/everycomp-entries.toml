@@ -10,6 +10,9 @@
 			bench = true
 			chair = true
 
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
 #Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
 [types]
 

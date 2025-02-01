@@ -1,4 +1,3 @@
-gamerule naturalRegeneration false
 gamerule keepInventory false
 gamerule playersSleepingPercentage 50
 gamerule globalSoundEvents false
