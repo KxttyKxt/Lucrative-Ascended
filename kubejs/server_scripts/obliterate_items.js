@@ -3,14 +3,6 @@
 //   2. Remove completely from recipe viewer (EMI)
 //   3. Prevent players from obtaining
 
-// Tags and items to remove from recipes and EMI
-ServerEvents.tags('item', event => {
-    event.add('kubejs:obliterated', '#c:equipment/copper')
-    event.add('kubejs:obliterated', '#c:equipment/emerald')
-    event.add('kubejs:obliterated', '#c:equipment/amethyst')
-    event.add('kubejs:obliterated', 'minecraft:shield')
-})
-
 // Remove from recipes
 ServerEvents.recipes(event => {
     event.remove([{input: '#kubejs:obliterated'}, {output: '#kubejs:obliterated'}])

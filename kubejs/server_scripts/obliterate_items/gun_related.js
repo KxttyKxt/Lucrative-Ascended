@@ -1,0 +1,31 @@
+ServerEvents.tags('item', event => {
+    event.add('kubejs:gun_related', 'reliquary:handgun')
+    event.add('kubejs:gun_related', 'reliquary:grip_assembly')
+    event.add('kubejs:gun_related', 'reliquary:barrel_assembly')
+    event.add('kubejs:gun_related', 'reliquary:hammer_assembly')
+
+    event.add('kubejs:gun_related', 'reliquary:magazines/empty_magazine')
+    event.add('kubejs:gun_related', 'reliquary:magazines/neutral_magazine')
+    event.add('kubejs:gun_related', 'reliquary:magazines/exorcism_magazine')
+    event.add('kubejs:gun_related', 'reliquary:magazines/blaze_magazine')
+    event.add('kubejs:gun_related', 'reliquary:magazines/ender_magazine')
+    event.add('kubejs:gun_related', 'reliquary:magazines/concussive_magazine')
+    event.add('kubejs:gun_related', 'reliquary:magazines/buster_magazine')
+    event.add('kubejs:gun_related', 'reliquary:magazines/seeker_magazine')
+    event.add('kubejs:gun_related', 'reliquary:magazines/sand_magazine')
+    event.add('kubejs:gun_related', 'reliquary:magazines/storm_magazine')
+
+    event.add('kubejs:gun_related', 'reliquary:bullets/empty_bullet')
+    event.add('kubejs:gun_related', 'reliquary:bullets/neutral_bullet')
+    event.add('kubejs:gun_related', 'reliquary:bullets/exorcism_bullet')
+    event.add('kubejs:gun_related', 'reliquary:bullets/blaze_bullet')
+    event.add('kubejs:gun_related', 'reliquary:bullets/ender_bullet')
+    event.add('kubejs:gun_related', 'reliquary:bullets/concussive_bullet')
+    event.add('kubejs:gun_related', 'reliquary:bullets/buster_bullet')
+    event.add('kubejs:gun_related', 'reliquary:bullets/seeker_bullet')
+    event.add('kubejs:gun_related', 'reliquary:bullets/sand_bullet')
+    event.add('kubejs:gun_related', 'reliquary:bullets/storm_bullet')
+
+
+    event.add('kubejs:obliterated', '#kubejs:gun_related')
+})
