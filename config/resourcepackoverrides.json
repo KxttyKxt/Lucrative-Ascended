@@ -25,6 +25,7 @@
 
         "file/EnderEyes_1.21_v3.1.zip",
         "file/Bibliophilia 1.14 (1.21).zip",
+        "file/Undopia_Pride_Bees_1.21.x_v.1.1.zip",
         "file/Visual Titles 1.1.zip",
 
 
@@ -73,10 +74,10 @@
 
             "file/EnderEyes_1.21_v3.1.zip",
             "file/Bibliophilia 1.14 (1.21).zip",
+            "file/Undopia_Pride_Bees_1.21.x_v.1.1.zip",
             "file/Visual Titles 1.1.zip"
         ],
         "$$plus": {
-            "fixed_position": true,
             "hidden": true
         },
 
