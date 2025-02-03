@@ -1,0 +1,30 @@
+#Multiplier for the base bundle capacity of 64 items.
+#Default Value: 8
+# Default: 8
+# Range: > 1
+golden_capacity_multiplier = 4
+#Multiplier for the base bundle capacity of 64 items.
+#Default Value: 2
+# Default: 2
+# Range: > 1
+copper_capacity_multiplier = 2
+#Multiplier for the base bundle capacity of 64 items.
+#Default Value: 4
+# Default: 4
+# Range: > 1
+iron_capacity_multiplier = 3
+#Multiplier for the base bundle capacity of 64 items.
+#Default Value: 32
+# Default: 32
+# Range: > 1
+netherite_capacity_multiplier = 6
+#Multiplier for the base bundle capacity of 64 items.
+#Default Value: 1
+# Default: 1
+# Range: > 1
+leather_capacity_multiplier = 1
+#Multiplier for the base bundle capacity of 64 items.
+#Default Value: 16
+# Default: 16
+# Range: > 1
+diamond_capacity_multiplier = 5
