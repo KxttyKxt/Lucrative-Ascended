@@ -19,8 +19,8 @@
 	#Sets the distance at which waypoints start to fade. Meaningless if waypointViewDistance=0. If this value is >= waypointViewDistance, it will never fade.
 	# Default: 195.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	waypointFadeDistance = 195.0
+	waypointFadeDistance = 200.0
 	#Sets the distance at which waypoints stop drawing. If set to 0, waypoints will never disappear.
 	# Default: 200.0
 	# Range: 0.0 ~ 1.7976931348623157E308
-	waypointViewDistance = 200.0
+	waypointViewDistance = 250.0

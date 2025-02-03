@@ -13,37 +13,13 @@
       }
     },
     "1": {
-      "title": "Waypoints Menu",
+      "title": "Menu Item #1",
       "icon": {
-        "stack": "{count:1,id:\"minecraft:ender_eye\"}"
+        "stack": "{count:1,id:\"minecraft:grass_block\"}"
       },
       "action": {
         "key": {
-          "key": "gui.xaero_waypoints_key",
-          "toggle": false
-        }
-      }
-    },
-    "2": {
-      "title": "Quick Waypoint",
-      "icon": {
-        "stack": "{count:1,id:\"minecraft:ender_pearl\"}"
-      },
-      "action": {
-        "key": {
-          "key": "gui.xaero_instant_waypoint",
-          "toggle": false
-        }
-      }
-    },
-    "3": {
-      "title": "Open World Map",
-      "icon": {
-        "stack": "{count:1,id:\"irons_spellbooks:furled_map\"}"
-      },
-      "action": {
-        "key": {
-          "key": "gui.xaero_open_map",
+          "key": "key.pickItem",
           "toggle": false
         }
       }
