@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " M ",
+      "BSR",
+      " G "
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:ghast_tear"
+      },
+      "R": {
+        "item": "reliquary:zombie_heart"
+      },
+      "B": {
+        "item": "reliquary:rib_bone"
+      },
+      "M": {
+        "item": "minecraft:phantom_membrane"
+      },
+      "S": {
+        "item": "endrem:undead_soul"
+      }
+    },
+    "result": {
+      "id": "endrem:undead_eye"
+    }
+  }
