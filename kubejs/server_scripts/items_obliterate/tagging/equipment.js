@@ -11,7 +11,8 @@ ServerEvents.tags('item', event => {
     const equipment = event.get('c:equipment').getObjectIds()
     const copperEquipment = Ingredient.of(/(better).*copper.*/)
     const emeraldEquipment = Ingredient.of(/(better).*emerald.*/)
-    const amethystEquipment = Ingredient.of(/(better)+.*amethyst.*/)
+    const amethystEquipment = Ingredient.of(/(better).*amethyst.*/)
+    const shields = Ingredient.of(/(better).*shield.*/)
 
     // Populate subtags for equipment
     equipment.forEach(equippable => {
@@ -19,12 +20,14 @@ ServerEvents.tags('item', event => {
             event.add('c:equipment/copper', equippable)
         else if (emeraldEquipment.test(equippable))
             event.add('c:equipment/emerald', equippable)
-        else if (amethystEquipment.test(equippable) && !equippable.equals('irons_spellbooks:amethyst_rapier'))
+        else if (amethystEquipment.test(equippable))
             event.add('c:equipment/amethyst', equippable)
+        else if (shields.test(equippable))
+            event.add('c:equipment/shields', equippable)
     })
     
     event.add('kubejs:obliterated', '#c:equipment/copper')
     event.add('kubejs:obliterated', '#c:equipment/emerald')
     event.add('kubejs:obliterated', '#c:equipment/amethyst')
-    event.add('kubejs:obliterated', 'minecraft:shield')
+    event.add('kubejs:obliterated', '#c:equipment/shields')
 })
