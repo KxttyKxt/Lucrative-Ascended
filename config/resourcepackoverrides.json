@@ -32,6 +32,7 @@
 
         "file/FreshAnimations_v1.9.2.zip",
         "file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
+        "file/boss-refreshed-v1.4.zip",
 
 
 
@@ -83,7 +84,8 @@
 
         "animated": [
             "file/FreshAnimations_v1.9.2.zip",
-            "file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip"
+            "file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip",
+            "file/boss-refreshed-v1.4.zip"
         ],
         "$$animated": {
             "force_compatible": true
